@@ -30,8 +30,8 @@ most important part. Add your answer to this markdown file.
 ## Answer
 The recurrence relation for my algorithm is:
 
-$$\begin{equation}T(n)=\begin{cases}1, & \text{if $n&le;1$} \\
-3T(\frac{n}{3})+C, & \text{if $n>1$}.\end{cases}\end{equation}$$
+$$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
+3T(\frac{n}{3})+C & \text{if $n>1$}.\end{cases}\end{equation}$$
 
 The reasoning for this relation:\
 $T(1)=1$, same as mergesort, because it takes constant time to sum the array if it has a length of 0 or 1.
