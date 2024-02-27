@@ -26,7 +26,7 @@ Now with i=log_3
 
 START WITH T(n)=1
 
-⌊x⌋ = ```
-{
-```x
+{% raw %}
+Hello, my name is {{name}}.
+{% endraw %}
 
