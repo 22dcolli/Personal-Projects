@@ -33,15 +33,9 @@ The recurrence relation for my algorithm is:
 $$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
 3T(\frac{n}{3}) & \text{if $n>1$}.\end{cases}\end{equation}$$
 
-The reasoning for this relation:\
-$T(1)=1$, same as mergesort, because it takes constant time to sum the array if it has a length of 0 or 1.
-It also takes constant time to split the array into thirds.
-Recursively summing the values takes $3T(\frac{n}{3})$ time because you are making 3 recursive calls, and each call handles a third of the array. 
-It takes constant time to perform the summation within the recursive calls, which is accounted for by the C term.
-
 Solving by substitution:
 
-$$\begin{aligned}T(n)& =3T(\frac{n}{3})+C \\
+$$\begin{aligned}T(/frac{n}{3})& =3T(\frac{n}{3})+C \\
 & =3(3T(\frac{(\frac{n}{3})}{3})+C)+C \\ 
 &=9T(\frac{n}{9})+3C \\
 &\cdots \\ 
