@@ -48,11 +48,7 @@ $$
 nT(\frac{n}{n})+nC=nT(1)+nC=2n=n\in\Theta(n)
 $$
 
-$$
-T(\frac{n}{3}) =3T(\frac{n}{3})+C
-$$
+$$T(\frac{n}{3}) =3T(\frac{n}{3})$$
 
-$$
-T(\frac{n}{3}) =3T(\frac{n}{3})+C
-$$
+
 
