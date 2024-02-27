@@ -35,7 +35,7 @@ $$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
 
 Solving by substitution:
 
-$$\begin{aligned}T(/frac{n}{3})& =3T(\frac{n}{3})+C \\
+$$\begin{aligned}T(\frac{n}{3})& =3T(\frac{n}{3})+C \\
 & =3(3T(\frac{(\frac{n}{3})}{3})+C)+C \\ 
 &=9T(\frac{n}{9})+3C \\
 &\cdots \\ 
