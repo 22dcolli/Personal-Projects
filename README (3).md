@@ -28,17 +28,12 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
 ## Answer
-The recurrence relation for my algorithm is:
+The recurrence relation is:
 
 $$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
 3T(\frac{n}{3}) & \text{if $n>1$}.\end{cases}\end{equation}$$
 
-Solving by substitution:
-
-
-
-
-For $i=\log(n)$:
+Substitute In:
 
 $
 nT(\frac{n}{n})+nC=nT(1)+nC=2n=n\in\Theta(n)
@@ -51,6 +46,8 @@ $T(n)=3(3T(\frac{(\frac{n}{3})}{3})$
 $T(n)=9T(\frac{n}{9})$
 
 $T(n)=3^{i}*T(\frac{n}{3^{i}})$
+
+Inserting $i=\log(n)$:
 
 
 
