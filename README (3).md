@@ -36,21 +36,21 @@ $$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
 Solving by substitution:
 
 
-$$T(\frac{n}{3})& =3T(\frac{n}{3})+C \\
+$T(\frac{n}{3})& =3T(\frac{n}{3})+C \\
 & =3(3T(\frac{(\frac{n}{3})}{3})+C)+C \\ 
 &=9T(\frac{n}{9})+3C \\
 &\cdots \\ 
-&=3^iT(\frac{n}{3^i})+n*C\end{aligned}$$
+&=3^iT(\frac{n}{3^i})+n*C\end{aligned}$
 
 For $i=\log(n)$:
 
-$$
+$
 nT(\frac{n}{n})+nC=nT(1)+nC=2n=n\in\Theta(n)
-$$
+$
 
-$$T(\frac{n}{3}) =3*T(\frac{n}{3})$$
+$T(\frac{n}{3}) =3*T(\frac{n}{3})$
 
-$$T(n)=3(3T(\frac{(\frac{n}{3})}{3})$$
+$T(n)=3(3T(\frac{(\frac{n}{3})}{3})$
 
 
 
