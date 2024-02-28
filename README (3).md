@@ -30,8 +30,8 @@ most important part. Add your answer to this markdown file.
 ## Answer
 The recurrence relation for my algorithm is:
 
-$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
-3T(\frac{n}{3}) & \text{if $n>1$}.\end{cases}\end{equation}$
+$$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
+3T(\frac{n}{3}) & \text{if $n>1$}.\end{cases}\end{equation}$$
 
 Solving by substitution:
 
