@@ -47,7 +47,7 @@ $T(n)=9T(\frac{n}{9})$
 
 $T(n)=3^{i}*T(\frac{n}{3^{i}})$
 
-Inserting $i=\log(n)$:
+Inserting $i=\log_{3}$:
 
 
 
