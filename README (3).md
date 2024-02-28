@@ -49,7 +49,7 @@ $T(n)=3^{i}*T(\frac{n}{3^{i}})$
 
 $Inserting $i=\log_{3}$ :$
 
-$3^{log_{3}} of n*T(\frac{n}{3^log_{3n})$
+$(3^{log_{3}})nT(\frac{n}{3^log_{3n}})$
 
 
 
