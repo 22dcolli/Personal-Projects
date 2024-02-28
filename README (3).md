@@ -30,17 +30,13 @@ most important part. Add your answer to this markdown file.
 ## Answer
 The recurrence relation for my algorithm is:
 
-$$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
-3T(\frac{n}{3}) & \text{if $n>1$}.\end{cases}\end{equation}$$
+$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
+3T(\frac{n}{3}) & \text{if $n>1$}.\end{cases}\end{equation}$
 
 Solving by substitution:
 
 
-$T(\frac{n}{3})& =3T(\frac{n}{3})+C \\
-& =3(3T(\frac{(\frac{n}{3})}{3})+C)+C \\ 
-&=9T(\frac{n}{9})+3C \\
-&\cdots \\ 
-&=3^iT(\frac{n}{3^i})+n*C\end{aligned}$
+
 
 For $i=\log(n)$:
 
