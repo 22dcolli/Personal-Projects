@@ -48,8 +48,9 @@ $T(\frac{n}{3}) =3*T(\frac{n}{3})$
 
 $T(n)=3(3T(\frac{(\frac{n}{3})}{3})$
 
-$9T(\frac{n}{9})$
+$T(n)=9T(\frac{n}{9})$
 
+$T(n)=3<sup>i$
 
 
 
