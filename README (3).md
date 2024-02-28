@@ -50,7 +50,7 @@ $T(n)=3(3T(\frac{(\frac{n}{3})}{3})$
 
 $T(n)=9T(\frac{n}{9})$
 
-$T(n)=3<sup>i</sup>$
+T(n)=3<sup>i</sup>
 
 
 
