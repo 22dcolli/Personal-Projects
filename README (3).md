@@ -49,7 +49,7 @@ $Inserting $i=\log_{3}$ :$
 
 =>$nT(1)}
 
-=>$\in\Theta(n)$
+=>$\Theta(n)$
 
 
 
