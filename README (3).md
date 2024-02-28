@@ -35,10 +35,6 @@ $$\begin{equation}T(n)=\begin{cases}1 & \text{if $n&le;1$} \\
 
 Substitute In:
 
-$
-nT(\frac{n}{n})+nC=nT(1)+nC=2n=n\in\Theta(n)
-$
-
 $T(\frac{n}{3}) =3*T(\frac{n}{3})$
 
 $T(n)=3(3T(\frac{(\frac{n}{3})}{3})$
@@ -50,6 +46,10 @@ $T(n)=3^{i}*T(\frac{n}{3^{i}})$
 $Inserting $i=\log_{3}$ :$
 
 $(3^{log_{3}})nT(\frac{n}{3^{log_{3n}}})$
+
+$nT(1)}
+
+$\Theta(n)$
 
 
 
